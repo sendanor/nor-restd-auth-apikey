@@ -1,4 +1,4 @@
-DNS module for sysrestd
-=======================
+APIKey Authentication module for nor-restd
+==========================================
 
-DNS module for sysrestd.
+BasicAuth Authentication module for (nor-restd)[https://github.com/Sendanor/nor-restd].
