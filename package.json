@@ -1,0 +1,31 @@
+{
+  "name": "nor-restd-auth-apikey",
+  "version": "0.0.1",
+  "description": "nor-restd authentication using apikeys",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha -R spec tests/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Sendanor/nor-restd-modules.git"
+  },
+  "dependencies": {
+    "express": "3.3.*",
+    "nor-express": "*",
+    "crypt3": "*"
+  },
+  "devDependencies": {
+    "lint": "*",
+    "mocha": "*",
+    "nor-is": "*"
+  },
+  "author": "Jaakko-Heikki Heusala <jheusala@iki.fi>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sendanor/nor-restd-modules/issues"
+  }
+}
